@@ -3,9 +3,9 @@
     box-sizing: border-box;
     max-width: 984px;
     margin: 0 auto;
-} 
+}
 
-@media screen and (max-width: 1279px){
+@media screen and (max-width: 1279px) {
     .lead {
         padding-top: 48px;
     }

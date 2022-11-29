@@ -1,4 +1,4 @@
-.footer__links{
+.footer__links {
     display: inline-grid;
     grid-auto-flow: column;
     grid-template-columns: repeat(5, auto);
@@ -6,8 +6,8 @@
     grid-column-gap: 18px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px){
-    .footer__links{
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .footer__links {
         grid-template-rows: repeat(5, auto);
         max-width: 128px;
         grid-row-gap: 32px;

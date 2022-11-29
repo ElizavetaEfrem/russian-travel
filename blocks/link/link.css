@@ -1,4 +1,5 @@
 .link {
     text-decoration: none;
-    color: #FFFFFF; 
-} 
+    color: #FFFFFF;
+    cursor: pointer;
+}
