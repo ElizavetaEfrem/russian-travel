@@ -6,7 +6,7 @@
     grid-template-rows: repeat(2, auto);
     grid-column-gap: 40px;
     grid-row-gap: 48px;
-    padding: 0 148px 80px;
+    padding: 0 calc(148px - 48px) 80px;
 }
 
 .place:last-of-type {
@@ -26,6 +26,9 @@
         grid-column-gap: 28px;
         max-width: 720px;
         padding: 0 24px 73px;
+    }
+    .place:last-of-type {
+        padding-bottom: 90px;
     }
 }
 

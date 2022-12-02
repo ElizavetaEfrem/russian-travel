@@ -1,14 +1,25 @@
 .cover {
-    background-image: url(../../images/cover-trains.jpg);
-    background-position: center center;
     background-size: cover;
     position: relative;
-    word-break: break-word;
-    margin: 0 48px;
+    margin: 0;
+    background-image: url(../../images/cover-trains.jpg);
+    z-index: 1;
 }
 
-@media screen and (max-width: 1279px) {
-    .cover {
-        margin: 0;
-    }
+.cover::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(42, 44, 47);
+    opacity: .3;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.cover:hover::before {
+    background-color: rgb(42, 44, 47);
+    opacity: .8;
+    z-index: -2;
 }
