@@ -41,4 +41,7 @@
         padding: 0;
         padding-bottom: 50px;
     }
+    .place:last-of-type {
+        padding-bottom: 66px;
+    }
 }
